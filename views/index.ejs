@@ -1,0 +1,23 @@
+
+<%- include("partials/header"); -%>
+<%- include("partials/navbar"); -%>
+
+<div class="front-page">
+  <div class="search_body">
+    <div class="form_input">
+      <h2>Recommend Movies like...</h2>
+      <form  action="/" method="POST">
+        <input
+          type="text"
+          placeholder="Enter movie you like"
+          name="name"
+        />
+        <button type="submit" class="btn-form" id="movie-search">Recommend</button>
+      </form>
+
+  </div>
+
+</div>
+
+
+<%- include("partials/footer"); -%>

@@ -1,0 +1,22 @@
+<%- include("partials/header"); -%>
+<%- include("partials/navbar"); -%>
+
+<div class="front-page">
+  <div class="search_body">
+    <div class="form_input">
+      <h2>Recommend Music like...</h2>
+      <form  action="/top_music" method="POST">
+        <input
+          type="text"
+          placeholder="Enter singer you like"
+          name="name"
+        />
+        <button type="submit" class="btn-form" id="music-search">Recommend</button>
+      </form>
+
+  </div>
+
+</div>
+
+
+<%- include("partials/footer"); -%>
